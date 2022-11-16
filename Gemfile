@@ -65,6 +65,7 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
+  gem 'erb2haml'
   gem 'haml-rails'
   gem 'rubocop', require: false # 追加
   gem 'rubocop-performance', require: false # 追加
